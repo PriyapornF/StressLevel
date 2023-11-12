@@ -16,7 +16,7 @@ feature_names = [
     "depression",
     "headache",
     "blood_pressure",
-    "sleep_quality",
+    "sleep_quality ระดับคุณภาพ : 5 = ดีมาก , 4 = ดี , 3 = ปานกลาง , 2 = พอใช้, 1 = ปรับปรุง",
     "breathing_problem",
     "noise_level",
     "living_conditions",
