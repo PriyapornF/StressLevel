@@ -11,26 +11,26 @@ st.title("Stress Level Prediction App")
 # Feature names
 feature_names = [
     "anxiety_level",
-    "self_esteem",
+    "self_esteem 5=มากที่สุด 1=น้อยที่สุด",
     "mental_health_history",
-    "depression",
-    "headache",
-    "blood_pressure",
+    "depression คุณมีภาวะ depression กี่ครั้งต่อสัปดาห์",
+    "headache คุณปวดหัวกี่ครั้งต่อสัปดาห์",
+    "blood_pressure คุณมีปัญหาความดันโลหิตกี่ครั้งต่อสัปดาห์",
     "sleep_quality ระดับคุณภาพ : 5 = ดีมาก , 4 = ดี , 3 = ปานกลาง , 2 = พอใช้, 1 = ปรับปรุง",
     "breathing_problem",
     "noise_level",
     "living_conditions",
     "safety",
     "basic_needs",
-    "academic_performance",
+    "academic_performance คุณจะให้คะแนนผลการเรียนของคุณอย่างไร",
     "study_load",
     "teacher_student_relationship",
-    "future_career_concerns",
-    "social_support",
+    "future_career_concerns 5=มากที่สุด 1=น้อยที่สุด",
+    "social_support 5=มากที่สุด 1=น้อยที่สุด",
     "peer_pressure",
     "extracurricular_activities",
     "bullying",
-    "stress_level"
+    "stress_level คุณจะให้คะแนนระดับความเครียดของคุณอย่างไร  5=มากที่สุด 1=น้อยที่สุด"
 ]
 
 # Create input fields for the user to provide input data
